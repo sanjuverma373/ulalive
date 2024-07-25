@@ -134,10 +134,10 @@ padding-top: 40px;
         border: 1px solid transparent; 
         transition: .4s;      
 }
-.common-btn{
+.common-btn:hover{
         border: 1px solid var(--bg-orange); 
         background-color: white;
-         color: var(--bg-orange);    
+         color: var(--bg-orange) !important;    
 }
 
 /* header */
