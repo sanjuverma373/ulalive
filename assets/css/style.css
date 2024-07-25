@@ -1,0 +1,387 @@
+@import url("root.css");
+*{
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        box-sizing: border-box;
+        text-decoration: none !important;
+}
+
+.my-container{
+        max-width: 1140px !important;
+}
+
+@font-face {
+        font-family: 'avenirltprobook';
+        src: url('../font/AvenirLTProBook.otf');
+    }
+@font-face {
+        font-family: 'avenirltpro';
+        src: url('../font/AvenirLTProBlack.otf');
+    }
+    .font-avenirlt {
+        font-family: 'avenirltpro' ;
+    }
+    .font-avenirltbook {
+        font-family: 'avenirltprobook' ;
+    }
+
+    /* line-height */
+    .lh-120{
+        line-height: 120%;
+    }
+    .lh-154{
+        line-height: 154%;
+    }
+    /* opacity */
+    .opacity-70{
+        opacity: 70%;
+    }
+    .opacity-60{
+        opacity: 60%;
+    }
+    .opacity-50{
+        opacity: 50%;
+    }
+
+    /* padding  margin*/
+    .mt-lg{
+        margin-top: 40px;
+    }
+    .mt-xl{
+        margin-top: 24px;
+    }
+    .mt-4xl{
+        margin-top: 167px;
+    }
+    
+    
+    .mb-md{
+        margin-bottom: 56px;
+    }
+
+    .mb-5xl{
+        margin-bottom: 40px;
+    }
+    .mb-6xl{
+        margin-bottom: 40px;
+    }
+    .mb-2xl{
+        margin-bottom: 35px;
+    }
+
+    .pb-small{
+        padding-bottom: 13px;
+    }
+    .pb-lg{
+        padding-bottom: 36px;
+    }
+    .py-xl{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .pt-md{
+        padding-top: 50px;
+    }
+    .pb-s{
+        padding-bottom: 11px;
+    }
+    .pb-xl{
+        padding-bottom: 45px;
+    }
+    .pt-3xl{
+        padding-top: 40px;
+    }
+    .py-md{
+        padding-top: 34px;
+        padding-bottom: 34px;
+    }
+       .pb-2xl{
+        padding-bottom: 73px;
+       }
+      .pb-sm{
+        padding-bottom: 32px;
+      }
+      .mt-2md{
+        margin-top: 40px;
+      }
+      .pt-4xl{
+        padding-top: 43px;
+      }
+      .pb-3md{
+        padding-bottom: 62px;
+      }
+      .pb-vs{
+        padding-bottom: 10px;
+      }
+      .pt-2lg{
+padding-top: 40px;
+    }
+    
+
+/* nav */
+.cursor-pointer{
+        cursor: pointer;
+}
+.gap-lg{
+        gap: 33px;
+}
+.common-btn{
+        padding: 12px 24px;
+        background-color: var(--bg-orange);
+        border-radius: 3px;
+        font-weight: var(--fw-750);
+        border: 1px solid transparent;
+       
+}
+
+/* header */
+.max-w-850{
+        max-width: 850px;
+}
+.desktop-img{
+        max-width: 934px;
+}
+
+
+/* empower */
+.max-w-489{
+        max-width: 489px;
+}
+.empower-img{
+        max-width: 486px;
+}
+
+
+/* marchants */
+.marchant-card{
+        box-shadow: 6px 7px 36px 0px #00000008;
+      background-color: white;
+      border-radius: 10px;
+      padding: 40px 26px;
+}
+.max-w-225{
+        max-width: 225px;
+}
+/* deeper */
+.deeper-card{
+        box-shadow: 6px 7px 36px 0px #00000008;
+        max-width: 1140px;
+        background-color: white;
+        border-radius: 10px;
+}
+.deeper-img{
+        max-width: 297px;
+        padding-left: 63px;
+        
+}
+.gap-4xl{
+        gap: 164px;
+}
+
+.our-motto{
+        transform: translateX(-138%); 
+}
+.max-w-504{
+        max-width: 504px;
+}
+
+/* templayer*/
+.teamplayer-card{
+        box-shadow: 6px 7px 36px 0px #00000008;
+        background-color: white;
+        padding-top: 20px;
+        padding-bottom: 63px;
+}
+.common-img{
+        max-width: 152px;
+}
+.max-w-597{
+max-width: 597px;
+}
+.max-w-525{
+        max-width: 525px;
+}
+
+/* ulalive */
+.ulalive-bg{
+        background-image: url(../images/webp/ulalive-bg-img.webp);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        min-height: 399px;
+}
+.max-w-1019{
+        max-width: 1019px;
+}
+
+/*  */
+.gap-md{
+        gap: 67px;
+}
+.gap-2xl{
+        gap: 100px;
+}
+
+/* footer */
+.max-w-950{
+        max-width: 950px !important;
+}
+
+    @media (max-width: 767.9px) {
+        .mobileView {
+                position: absolute;
+                background-color: #2A3FA1;
+                min-height: 100vh;
+                width: 100%;
+                top: 0;
+                left: -100%;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                transition: 300ms linear;
+                z-index: 5;
+        }
+
+        .z-5 {
+                z-index: 5;
+        }
+
+        .overflow_hidden {
+                overflow: hidden !important;
+        }
+
+        .menu span.nav-line1 {
+                height: 2px;
+                width: 30px;
+                background-color: var(--bg-orange);
+                display: block;
+                border-radius: 20px;
+        }
+
+        .menu span.nav-line2 {
+                height: 2px;
+                width: 30px;
+                background-color: var(--bg-orange);
+                display: block;
+                border-radius: 20px;
+        }
+
+        .menu span.nav-line3 {
+                height: 2px;
+                width: 30px;
+                background-color: var(--bg-orange);
+                display: block;
+                border-radius: 20px;
+        }
+
+        .menu span {
+                transition: 300ms linear;
+        }
+
+        .cross span.nav-line1 {
+                transform: rotate(42deg) translateY(13px);
+                transition: 300ms linear;
+                background-color: var(--bg-orange);
+                width: 30px;
+        }
+
+        .cross span.nav-line2 {
+                transform: translateX(-100%);
+                opacity: 0;
+                transition: 300ms linear;
+        }
+
+        .cross span.nav-line3 {
+                transform: rotate(-43deg) translateY(-13px);
+                transition: 300ms linear;
+                background-color: var(--bg-orange);
+                width: 30px;
+        }
+
+        .flex-direction {
+                flex-direction: column;
+        }
+}
+
+@media (min-width:575.9px) {
+        .mt-lg{
+                margin-top: 85px;
+            }  
+            .mt-xl{
+                margin-top: 50px;
+            } 
+            .mb-5xl{
+                margin-bottom: 70px;
+            } 
+            .py-xl{
+                padding-top: 40px;
+                padding-bottom: 40px;
+            } 
+            .mb-6xl{
+                margin-bottom: 60px;
+            }
+            .pt-3xl{
+                padding-top: 70px;
+            }
+            .pb-xl{
+                padding-bottom: 94px;
+            }
+            .mb-2xl{
+                margin-bottom: 60px;
+            }
+            .mt-2md{
+        margin-top: 69px;
+              }
+              .pt-4xl{
+                padding-top: 60px;
+              }
+              .pt-2lg{
+                padding-top: 60px;
+            }
+}
+@media (min-width:767.9px) {
+        .mt-xl{
+                margin-top: 94px;
+            } 
+            .mb-5xl{
+                margin-bottom: 100px;
+            } 
+            .py-xl{
+                padding-top: 70px;
+                padding-bottom: 70px;
+            }
+            .mb-6xl{
+                margin-bottom: 100px;
+            }
+            .pt-3xl{
+                padding-top: 137px;
+            }
+            .mb-2xl{
+                margin-bottom: 85px;
+            }
+            .pt-4xl{
+                padding-top: 90px;
+              }
+              .mt-2lg{
+                margin-top: 91px;
+            }
+}
+@media (min-width:991.9px) {
+        .mb-5xl{
+                margin-bottom: 176px;
+            }
+            .mb-6xl{
+                margin-bottom: 197px;
+            }
+            .pt-4xl{
+                padding-top: 143px;
+              }
+            .teamplayer-card{
+                max-width: 357px;
+                box-shadow: 6px 7px 36px 0px #00000008;
+                background-color: white;
+                padding-top: 20px;
+                padding-bottom: 63px;
+        }
+}

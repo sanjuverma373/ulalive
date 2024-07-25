@@ -1,0 +1,57 @@
+:root {
+        /* font-size */
+        --fs-base: 16px;
+        --fs-md: 20px;
+        --fs-lg: 24px;
+        --fs-xl: 36px;
+        --fs-xxl: 48px;
+         
+        /* color */
+        --bg-orange: #E38301;
+        --color-dark-blue: #2B1C50;
+        --bg-light-blue: #853EF8;
+        --color-light-black: #140524; 
+        --bg-light-sky: #F4EAFF; 
+              /*font-weight  */
+              --fw-750: 750;
+       
+}
+.text-base{
+        font-size: var(--fs-base);
+}
+.text-md{
+        font-size: var(--fs-md);
+}
+.text-lg{
+        font-size: var(--fs-lg);
+}
+.text-xl{
+        font-size: var(--fs-xl);
+}
+.text-xxl{
+        font-size: var(--fs-xxl);
+}
+
+
+.fw-750{
+        font-weight: 750;
+}
+
+
+.bg-orange{
+        background-color: var(--bg-orange);
+}
+.bg-light-blue{
+        background-color: var(--bg-light-blue);
+}
+.bg-light-sky{
+        background-color: var(--bg-light-sky);
+}
+
+
+.text-dark-blue{
+        color: var(--color-dark-blue);
+}
+.text-light-black{
+        color: var(--color-light-black);
+}
