@@ -131,8 +131,13 @@ padding-top: 40px;
         background-color: var(--bg-orange);
         border-radius: 3px;
         font-weight: var(--fw-750);
-        border: 1px solid transparent;
-       
+        border: 1px solid transparent; 
+        transition: .4s;      
+}
+.common-btn{
+        border: 1px solid var(--bg-orange); 
+        background-color: white;
+         color: var(--bg-orange);    
 }
 
 /* header */
@@ -180,7 +185,7 @@ padding-top: 40px;
 }
 
 .our-motto{
-        transform: translateX(-138%); 
+        transform: translateX(64%); 
 }
 .max-w-504{
         max-width: 504px;
@@ -231,7 +236,7 @@ max-width: 597px;
     @media (max-width: 767.9px) {
         .mobileView {
                 position: absolute;
-                background-color: #2A3FA1;
+                background-color: #2B1C50;
                 min-height: 100vh;
                 width: 100%;
                 top: 0;
@@ -383,5 +388,9 @@ max-width: 597px;
                 background-color: white;
                 padding-top: 20px;
                 padding-bottom: 63px;
+        }
+
+        .our-motto{
+                transform: translateX(-138%); 
         }
 }

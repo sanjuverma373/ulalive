@@ -1,10 +1,10 @@
 :root {
         /* font-size */
-        --fs-base: 16px;
-        --fs-md: 20px;
-        --fs-lg: 24px;
-        --fs-xl: 36px;
-        --fs-xxl: 48px;
+         --fs-base: 14px;
+        --fs-md: 16px;
+         --fs-lg: 18px;
+        --fs-xl: 23px;
+         --fs-xxl: 25px;
          
         /* color */
         --bg-orange: #E38301;
@@ -54,4 +54,28 @@
 }
 .text-light-black{
         color: var(--color-light-black);
+}
+
+@media (min-width:575.9px) {
+        :root {
+                /* font-size */
+                --fs-base: 16px;
+                --fs-md: 20px;
+                 --fs-lg: 20px;
+                 --fs-xxl: 32px;             
+        }
+        
+}
+@media (min-width:767.9px) {
+        :root {
+                /* font-size */
+                --fs-base: 16px;
+                --fs-md: 20px;
+                --fs-lg: 24px;
+                --fs-xl: 36px;
+                --fs-xxl: 48px;          
+               
+               
+        }
+        
 }
